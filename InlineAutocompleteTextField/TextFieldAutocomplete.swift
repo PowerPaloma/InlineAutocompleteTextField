@@ -38,7 +38,8 @@ class TextFieldAutocomplete: UITextField {
         let formatted = String(subString.dropLast(characterCount)).lowercased().capitalized
         return formatted
     }
-    func resetValues() {
+    
+    private func resetValues() {
         characterCount = 0
         self.text = ""
     }
