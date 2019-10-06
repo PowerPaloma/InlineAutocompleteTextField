@@ -11,6 +11,7 @@
 		2FA776522348066400A9EFCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA776512348066400A9EFCB /* ViewController.swift */; };
 		2FA776572348066600A9EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA776562348066600A9EFCB /* Assets.xcassets */; };
 		2FA7765A2348066600A9EFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA776582348066600A9EFCB /* LaunchScreen.storyboard */; };
+		2FCA84A2234A61CF00F4DD3A /* TextFieldAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA84A1234A61CF00F4DD3A /* TextFieldAutocomplete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2FA776562348066600A9EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA776592348066600A9EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA7765B2348066600A9EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCA84A1234A61CF00F4DD3A /* TextFieldAutocomplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAutocomplete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2FA776562348066600A9EFCB /* Assets.xcassets */,
 				2FA776582348066600A9EFCB /* LaunchScreen.storyboard */,
 				2FA7765B2348066600A9EFCB /* Info.plist */,
+				2FCA84A1234A61CF00F4DD3A /* TextFieldAutocomplete.swift */,
 			);
 			path = InlineAutocompleteTextField;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				2FA776522348066400A9EFCB /* ViewController.swift in Sources */,
 				2FA776502348066400A9EFCB /* AppDelegate.swift in Sources */,
+				2FCA84A2234A61CF00F4DD3A /* TextFieldAutocomplete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
